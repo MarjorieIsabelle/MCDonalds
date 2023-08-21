@@ -1,0 +1,207 @@
+body{/*ajustes para tag body*/
+    margin: 0px;/*ajusta as margens dos cantos do site*/
+    padding: 0px;/*ajusta as margens dos cantos do site*/
+}
+.iconeredes {
+    display: flex;/*deixa os elementos na horizontal*/
+    align-items: center;/*alinhamento dos icones ao centro*/
+    margin-top: 18px;/*ajusta a margem do topo*/
+    list-style: none;/*define o tipo de lista, neste caso sem o ponto*/
+    position: absolute;/*posição absoluta*/
+    margin-left: 328px;/*ajusta a margem externa da esquerda*/
+    padding-left: 0px;/*ajusta a margem interna esquerda*/
+    width: 0px;/**/
+    height: 60px;/**/
+}
+.facebook{/*ajusta o tamanho do icone facebook*/
+    width: 25px;/*ajusta lagura*/
+    height: auto;/*ajusta altura automático*/
+}
+.instagram{/*ajusta o tamanho do icone instagram*/
+    width: 25px;/*ajusta lagura*/
+    height: auto;/*ajusta altura automático*/
+}
+.twitter{/*ajusta o tamanho do icone twitter*/
+    width: 25px;/*ajusta lagura*/
+    height: auto;/*ajusta altura automático*/
+}
+.youtube{/*ajusta o tamanho do icone youtube*/
+    width: 25px;/*ajusta lagura*/
+    height: auto;/*ajusta altura automático*/
+}
+.iconeredes li{/*ajusta o espaçamento entre os icones */
+    margin-left: 30px;/*ajusta da margem esquerda */
+}
+.botoes-login-criarconta{
+    position: absolute;/*habilita as alterações de posiçao*/
+    margin-left: 1382px;/*ajusta da margem esquerda */
+    margin-top: 28px;/*ajusta da margem do topo*/
+}
+.botao-login,
+.botao-criarconta{
+    font-weight: bold;/*escolhe a familia da fonte*/
+    padding: 10px;/*espaçamento interno de todos os lados*/
+    background-color: #FFBC0D;/* cor de fundo*/
+    color: #DB0007;/*cor do texto*/
+    border: none;/*sem cor na borda*/
+    border-radius: 50px;/*coloca bordas arredondadas*/
+    cursor: pointer;/*muda a seta do mouse para uma mao de clique*/
+    margin-left:18px;/*ajuste da margem esquerda*/
+}
+.botao-login:hover,/*usamos o hover para mudar a cor quando passamos o mouse por cima*/
+.botao-criarconta:hover{
+    background-color: #fff;/*muda a cor do fundo do botao*/
+    color: #DB0007;/*muda cor do texto botao*/
+}
+nav{
+    background-color: #DB0007;/*muda a cor do fundo do menu*/
+    padding: 5px;/*deixa sem o espaçamento interno*/
+}
+nav ul{
+    list-style: none;/*define o tipo de lista, neste caso sem o ponto*/
+    padding-top: 0px;/*deixa sem o spaçamento interno no topo*/
+    padding-bottom: 0px;/*coloca o espaçamento interno do botao*/
+    display: flex;/*deixa lista horizontal*/
+    justify-content: center;/*justifica o conteudo no centro*/
+    font-family: 'Roboto', sans-serif;/*define o tipo de fonte - roboto e sem serifa*/
+    font-weight: bold;/*define a familia da fonte - roboto*/
+    font-size: 15px;/*define o tamanho da fonte*/
+}
+nav li{
+    margin-left: 46px;/*define o espaçamento externo esquerdo*/
+    margin-right: 46px;/*define o espaçamento externo direito*/
+    margin-top: 79px;/*define o espaçamento interno do topo*/
+}
+nav a{
+    color: #FFBC0D;/*define a cor do texto*/
+    text-decoration: none;/*none-tira o sublinhado do exto*/
+}
+nav a:hover {/*usamos o hover para mudar a cor quando passamos o mouse por cima*/
+    color: white;/*define a cor do texto*/
+}
+.logomc{
+    width: auto;/*deixa a largura na medida automatica*/
+    height: 107px;/*define o tamanho da altura */
+    padding-top: 0px;/*define o espaçamento interno do topo */
+    padding-bottom: 0px;/*define o botao */
+}
+.banner img{
+    position: relative;/*ajusta a posição do banner*/
+    height: auto;/*define o tamanho da altura */
+    width: 100%;/*define o tamanho da largura*/
+}
+.iconemc{
+    height:auto ;/*define o tamanho da altura na medida automatica */
+    width: 10px;/*define o tamanho da largura*/
+}
+.oferta-do-dia {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.oferta-do-dia h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #DB0007;
+}
+.linha-amarela-left,
+.linha-amarela-righ{
+    position:absolute;
+    top: 853px;
+    height: 7px;
+    width: 636px;
+    background-color: #FFBC0D;
+    border-radius: 23px;
+}
+.linha-amarela-left{
+    left: 200px;
+}
+.linha-amarela-righ{
+    right: 200px;
+}
+.oferta-imagens{
+    display: flex;
+    padding: 0px;
+}
+.mc {
+    height: 200px;
+    width: auto;
+}
+.preco{
+    position: relative;
+    top: -155px;
+    padding:94px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #DB0007;
+}
+.descricao h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(95,95,95);
+}
+.descricao{
+    margin-top: -241px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.comprar{
+    font-weight: 20px;
+    padding: 10px 20px;
+    background-color: #DB0007;
+    color: #FFBC0D;
+    border: none;
+    border-radius: 73px;
+    cursor: pointer;
+    margin-bottom: 21px;
+    margin-top: 9px;
+    font-size: 19px;
+}
+.comprar:hover {
+    background-color: #FFBC0D;
+    color: #DB0007;
+}
+.linha {
+    position: absolute;
+    margin-top: 17px;
+    left: 5%;
+    transform:  translate(-50, -50);
+    height: 3px;
+    width: 1674px;
+    background-color: #E1E1E1;
+    border-radius: 20px;
+    
+}
+.conteudorodape {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.conteudorodape  ol{
+    margin-top: -26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    list-style: none;
+    padding-bottom: 14px;
+}
+.coluna1 li, .coluna2 li, .coluna3 li{
+    padding: 1px;
+    color: #FFBC0D;
+}
+.copy {
+    background-color:  #980005;
+    color: #FFBC0D;
+    text-align: center;
+    padding:16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+
